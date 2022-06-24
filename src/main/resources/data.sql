@@ -4,6 +4,9 @@ INSERT INTO tb_user (name, email, password) VALUES ('Lionel Messi', 'messi@hotma
 INSERT INTO tb_user (name, email, password) VALUES ('Neymar Junior', 'neyjr@hotmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
 INSERT INTO tb_user (name, email, password) VALUES ('Vinicius Junior', 'vinijr@hotmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
 INSERT INTO tb_user (name, email, password) VALUES ('Rodrygo', 'rodrygo@hotmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+INSERT INTO tb_user (name, email, password) VALUES ('bob vader', 'bob@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+INSERT INTO tb_user (name, email, password) VALUES ('ana', 'ana@gmail.com', '$2a$10$eACCYoNOHEqXve8aIWT8Nu3PkMXWBaOxJ9aORUYzfMQCbVBIhZ8tG');
+
 
 INSERT INTO tb_role (authority) VALUES ('ROLE_VISITOR');
 INSERT INTO tb_role (authority) VALUES ('ROLE_MEMBER');
@@ -14,6 +17,9 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (4, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (5, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (6, 1);
+INSERT INTO tb_user_role (user_id, role_id) VALUES (7, 1);
+INSERT INTO tb_user_role (user_id, role_id) VALUES (8, 2);
+
 
 INSERT INTO tb_genre (name) VALUES ('Ação');
 INSERT INTO tb_genre (name) VALUES ('Aventura');
